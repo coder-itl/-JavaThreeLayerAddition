@@ -28,42 +28,6 @@
   ├─libs
   │      mysql-connector-java-5.1.47.jar
   │
-  ├─out
-  │  └─production
-  │      └─PersonProj
-  │          │  db.properties
-  │          │
-  │          └─com
-  │              └─coderitl
-  │                  ├─advanced
-  │                  │  │  RowMapper.class
-  │                  │  │
-  │                  │  └─impl
-  │                  │          PersonRowMapperImpl.class
-  │                  │
-  │                  ├─dao
-  │                  │  │  PersonDao.class
-  │                  │  │
-  │                  │  └─impl
-  │                  │          PersonDaoImpl.class
-  │                  │
-  │                  ├─entity
-  │                  │      Person.class
-  │                  │
-  │                  ├─service
-  │                  │  │  PersonService.class
-  │                  │  │
-  │                  │  └─impl
-  │                  │          PersonServiceImpl.class
-  │                  │
-  │                  ├─utils
-  │                  │      DaoUtils.class
-  │                  │      DateUtils.class
-  │                  │      Utils.class
-  │                  │
-  │                  └─view
-  │                          TestPerson.class
-  │
   └─src
       │  db.properties
       │
@@ -98,7 +62,7 @@
               └─view
                       TestPerson.java
   ```
-
+  
 + 主要实现常用工具类封装
 
   + 日期工具类
