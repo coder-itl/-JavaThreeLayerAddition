@@ -75,6 +75,23 @@
 
 + 实现表现分离
 
++ 数据库表结构
+
+  ```sql
+  mysql> desc Person;
+  +----------+-------------+------+-----+---------+----------------+
+  | Field    | Type        | Null | Key | Default | Extra          |
+  +----------+-------------+------+-----+---------+----------------+
+  | id       | int(11)     | NO   | PRI | NULL    | auto_increment |
+  | name     | varchar(20) | NO   |     | NULL    |                |
+  | age      | int(11)     | NO   |     | NULL    |                |
+  | bornDate | datetime    | YES  |     | NULL    |                |
+  | email    | varchar(20) | YES  |     | NULL    |                |
+  | address  | varchar(20) | YES  |     | NULL    |                |
+  +----------+-------------+------+-----+---------+----------------+
+  6 rows in set (0.08 sec)
+  ```
+
 + `git`常用命令
 
   ```bash
